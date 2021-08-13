@@ -1,0 +1,8 @@
+StudentName : {{ student.sname }}<br>
+StudentRoll_No: {{ student.sroll }}<br>
+StudentAge : {{ student.sage }}<br><br>
+
+
+<a href="{% url 'assignment:update' student.id  %}">Edit</a>
+<a href="{% url 'assignment:delete' student.id  %}">Delete</a>
+<br><br>
